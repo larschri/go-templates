@@ -1,0 +1,11 @@
+<main class="container">
+	<article>
+		<header data-loading-states>
+			Hello <a hx-get="/time">when?</a>
+		</header>
+		<p>
+		Click the button to display an error message. The <a href="https://htmx.org/extensions/loading-states/">HTMX loading-states extension</a> is used to disable the button while waiting for the response.
+		</p>
+		<button hx-get="/error" data-loading-aria-busy>Error</button>
+	</article>
+</main>
